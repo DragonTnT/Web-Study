@@ -48,10 +48,13 @@ span.block-info {
 
 
 .clear-fix {
+    width: 800px;
     height: 100px;
     clear: both;
     border-bottom: 2px ridge white;
+    border-right: 1px solid black;
 }
+
 
 br {
     display: block;
