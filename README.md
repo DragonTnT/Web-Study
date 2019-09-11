@@ -12,6 +12,6 @@ a web learning record
 
 [前端学习五盒子模型](https://github.com/DragonTnT/Web-Study/blob/master/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0(%E4%BA%94)%E7%9B%92%E5%AD%90%E6%A8%A1%E5%9E%8B.md)
 
-[作业](https://github.com/DragonTnT/Web-Study/tree/master/%E4%BD%9C%E4%B8%9A)
+[作业](https://github.com/DragonTnT/Web-Study/blob/master/%E4%BD%9C%E4%B8%9A/%E6%95%88%E6%9E%9C%E6%BC%94%E7%A4%BA.md)
 
 [HTML标签](https://github.com/DragonTnT/Web-Study/blob/master/HTML%E6%A0%87%E7%AD%BE.md)
