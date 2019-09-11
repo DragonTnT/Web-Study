@@ -1,0 +1,32 @@
+body {
+    font-size: 18px;
+}
+div.nav {
+    width: 200px;
+    height: 860px;
+    background-color: rgb(87, 145, 249);
+    float: left;
+}
+div.info {
+    /* 这里的margin实际上是和body的距离，而不是和div.nav的距离 */
+    margin-left: 230px;  
+}
+h1 {
+    font-size: 37px;
+    color: white;
+    margin-top: 60px;
+    text-align: center;
+}
+h2 {
+    font-size: 28px;
+}
+span.desc {
+    font-weight: bold;
+}
+span.content {
+    margin-left: 8px;
+    margin-right: 30px;
+}
+span.block-info {
+    display: block;
+}

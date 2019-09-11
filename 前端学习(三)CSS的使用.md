@@ -4,7 +4,7 @@
 
 ​	1.浏览器加载HTML(从网络上下载，或从本地读取)。
 
-​	2.将HTML转化为DOM。
+​	2.根据HTML创建DOM。
 
 ​	3.浏览器抓取HTML上的资源文件，如图片和视频，以及CSS。
 
@@ -12,7 +12,7 @@
 
 ​	5.渲染树在获取到rule之后，根据结构来布局。
 
-​	6.要显示的页面出现在屏幕上。
+​	6.将最终的页面显示在屏幕上。
 
 #### 2.DOM的创建
 
@@ -57,7 +57,10 @@ P
 - type-selector: 指定类型，如h1 {}
 - class-selector:指定class, 如.box {}
 - id-selector: 指定id, 如#unique {}
-- attribute selector: 指定具体的属性，如a[title] {}
+- attribute selector: 指定具体的属性，如：
+  - *[title] {} 指有title属性的标签
+  - a[title] {} 指有title属性的a标签
+  - `a[href][title]`指同时有href和title属性的a标签
 
 ####5.CSS的优先级-Specificity
 
@@ -84,6 +87,8 @@ h1 {
 - comments：注释
 - whte-space： 空格和回车的合理使用，可使样式文件更易读
 
-#### 5.VSCode的使用
+#### 7.VSCode的使用
 
 教程-[这里](https://code.makery.ch/library/html-css/part1/)。
+
+####8.经过CSS修饰之后的[简历](https://codepen.io/dragonTnT/pen/ZEzXENO)

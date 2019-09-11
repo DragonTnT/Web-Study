@@ -1,0 +1,39 @@
+body {
+    background-image: url("http://img02.tooopen.com/images/20150517/tooopen_sy_124742441856.jpg")
+}
+
+h1 {
+    /* 设置了字的大小，px是单位，你可以尝试改成其它大小 */
+    font-size: 32px;
+    color: orange;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px #07c27f
+}
+h2 {
+    color: blue;
+    font-style: italic;
+    text-indent: 10px;
+}
+li {
+    font-family: arial
+}
+span {
+    color: red;
+}
+#tel {
+    font-weight: bold
+}
+a {
+    text-decoration: none
+}
+  
+p {
+    margin-left: 20px;
+    text-indent: 30px;
+    line-height: 20px;
+}
+  
+li[id] {
+    color: red;
+}
