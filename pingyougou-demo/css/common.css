@@ -1,0 +1,99 @@
+.shortcut {
+    height: 31px;
+    background-color: #f1f1f1;
+    line-height: 31px;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.fr {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.shortcut li {
+    float: left;
+}
+
+.style-red {
+    color: #c81623;
+}
+
+.spacer {
+    width: 1px;
+    height: 12px;
+    margin: 9px 12px 0;
+    background-color: #666;
+}
+
+/* 字体图标 */
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?7kkyc2');
+    src:  url('../fonts/icomoon.eot?7kkyc2#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?7kkyc2') format('truetype'),
+    url('../fonts/icomoon.woff?7kkyc2') format('woff'),
+    url('../fonts/icomoon.svg?7kkyc2#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.shortcut .icomoon {
+	font-family: 'icomoon';
+	font-size: 16px;
+	line-height: 25px;
+}
+
+.header {
+    position: relative;
+    height: 105px; 
+}
+
+.logo {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 175px;
+    height: 56px;
+}
+
+.logo a {
+    display: block;
+    width: 175px;
+    height: 56px;
+    background: url(../img/logo.png) no-repeat;
+    font-size: 0px;
+    /* 另一种写法 */
+    /* overflow: hidden; */
+    /* text-indent: -999px; */
+}
+
+.search {
+    position: absolute;
+    top: 25px;
+    left: 348px;
+}
+
+.text {
+    float: left;
+    width: 445px;
+    height: 32px;
+    padding-left: 10px;
+    border: 2px solid #b1191a; 
+    color: #ccc;   
+}
+
+.btn {
+    float: left;
+    width: 82px;
+    height: 36px;
+    border: 0;
+    background-color: #b1191a;
+    color: white;
+}
