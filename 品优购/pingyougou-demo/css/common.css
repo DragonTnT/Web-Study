@@ -1,16 +1,7 @@
-/* 公共样式 */
-.fl {
-    float: left;
-}
-
-.fr {
-    float: right;
-}
-
-.fr .icomoon {
-	font-family: 'icomoon';
-	font-size: 16px;
-	line-height: 26px;
+.shortcut {
+    height: 31px;
+    background-color: #f1f1f1;
+    line-height: 31px;
 }
 
 .w {
@@ -18,26 +9,30 @@
     margin: 0 auto;
 }
 
-.shortcut {
-    height: 31px;
-    line-height: 31px;
-    background-color: #f1f1f1;
+.fr {
+    float: left;
+}
+
+.fr {
+    float: right;
 }
 
 .shortcut li {
     float: left;
 }
 
-.header {
-    position: relative;
-    height: 105px;
+.style-red {
+    color: #c81623;
 }
 
-.logo {
-    position: absolute;
-    top: 25px;
+.spacer {
+    width: 1px;
+    height: 12px;
+    margin: 9px 12px 0;
+    background-color: #666;
 }
 
+/* 字体图标 */
 @font-face {
     font-family: 'icomoon';
     src:  url('../fonts/icomoon.eot?7kkyc2');
@@ -49,59 +44,56 @@
   font-style: normal;
 }
 
-
-.spacer {
-    width: 1px;
-    height: 12px;
-    margin: 10px 12px 0;
-    background-color: #666;
+.shortcut .icomoon {
+	font-family: 'icomoon';
+	font-size: 16px;
+	line-height: 25px;
 }
 
-.red {
-    color: rgb(202, 28, 48)
+.header {
+    position: relative;
+    height: 105px; 
+}
+
+.logo {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    width: 175px;
+    height: 56px;
+}
+
+.logo a {
+    display: block;
+    width: 175px;
+    height: 56px;
+    background: url(../img/logo.png) no-repeat;
+    font-size: 0px;
+    /* 另一种写法 */
+    /* overflow: hidden; */
+    /* text-indent: -999px; */
 }
 
 .search {
     position: absolute;
-    width: 540px;
-    height: 64px;
     top: 25px;
-    left: 347px;
+    left: 348px;
 }
 
-.search input {
+.text {
     float: left;
-    width: 444px;
+    width: 445px;
     height: 32px;
     padding-left: 10px;
-    border: 2px solid #b1191a;
-    color: #ccc;
+    border: 2px solid #b1191a; 
+    color: #ccc;   
 }
 
-.search button {
+.btn {
     float: left;
     width: 82px;
     height: 36px;
     border: 0;
-    color: white;
-    font-size: 16px;
-}
-
-.search li {
-    float: left;
-    line-height: 28px;
-    margin: 0 12px;
-}
-
-.search_category {
-    position: absolute;
-    top: 36px;
-    height: 28px;
-}
-
-.deep_red {
     background-color: #b1191a;
+    color: white;
 }
-
-
- 
