@@ -9,7 +9,7 @@
     margin: 0 auto;
 }
 
-.fr {
+.fl {
     float: left;
 }
 
@@ -96,4 +96,165 @@
     border: 0;
     background-color: #b1191a;
     color: white;
+    font-size: 14px;
+}
+
+.hotwords {
+    position: absolute;
+    top: 65px;
+    left: 348px;
+}
+
+.hotwords a {
+    margin: 0 10px;
+}
+
+.shopcart {
+    position: absolute;
+    top: 25px;
+    right: 64px;
+    width: 138px;
+    height: 34px;
+    border: 1px solid #dfdfdf;
+    background-color: #f7f7f7;   
+    text-align: center;
+    line-height: 34px;
+}
+
+.cart {
+    font-family: "icomoon";
+}
+
+.arrow {
+    font-family: "icomoon";
+    margin-left: 10px;
+}
+
+.count {
+    position: absolute;
+    top: -5px;
+    left: 95px;
+    height: 14px;
+    padding: 0 3px;
+    border-radius: 7px 7px 7px 0;
+    color: white;
+    background-color: #c81623;
+    line-height: 14px;
+}
+
+/* nav start */
+.nav {
+    height: 45px;
+    border-bottom: 2px solid #b1191a;
+}
+.dropdown {
+    width: 209px;
+    height: 45px;
+    background-color: #c81623;
+}
+.dt {
+    height: 100%;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    line-height: 45px;        
+}
+.dd {
+    height: 465px;
+    background-color: #c81623;
+    margin-top: 2px;
+}
+.menu-item {
+    height: 31px;
+    line-height: 31px;
+    margin-left: 1px;
+    padding: 0 10px;
+}
+.menu-item:hover {
+    background-color: white;
+}
+.menu-item a {    
+    color: white;
+}
+.menu-item:hover a {
+    background-color: white;
+    color: #c81623;
+}
+.menu-item i {
+	float: right;
+	font-family: 'icomoon';
+	font-size: 18px;
+    color: #fff;
+}
+.nav-items {
+    margin-left: 10px;    
+}
+.nav-items li {
+    float: left;    
+    height: 45px;
+    line-height: 45px;
+}
+.nav-items a {
+    display: block;
+    height: 45px;
+    padding: 0 25px;
+    font-size: 14px;
+}
+/* 底部 */
+.footer {
+    height: 383px;
+    padding-top: 30px;    
+    background-color: #f5f5f5;
+}
+.mod-service {
+    height: 79px;
+    border-bottom: 1px solid #ccc;
+}
+.mod-service li {
+    float: left;
+    width: 240px;
+    height: 79px;    
+}
+.mod-service-icon {
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin-left: 35px;
+    background: url(../img/icons.png) no-repeat;
+}
+.mod-service-zheng {
+    background-position: -253px -3px;
+}
+.mod-service-title {
+    float: left;
+    margin-top: 8px;
+    margin-left: 20px;
+}
+.mod-help {
+    height: 187px;
+	border-bottom: 1px solid #ccc;
+}
+.mod-help-item {
+    float: left;
+    width: 150px;
+    padding: 25px 0 0 50px;
+}
+.mod-help-item dt {
+    font-size: 15px;
+}
+.mod-help-item dd {
+    height: 22px;
+}
+.mod-help-app dt,
+.mod-help-app p {
+    padding-left: 15px;
+}
+.mod-help-app img {
+    margin: 7px 0;
+}
+.mod-copyrights {
+    text-align: center;
+}
+.mod-copyrights-links {
+    margin: 20px 0 15px 0;    
 }
