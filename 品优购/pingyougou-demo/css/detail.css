@@ -1,0 +1,165 @@
+/* 商品预览 */
+.preview-wrap {
+    width: 400px;
+    height: 590px;
+}
+.crumb-wrap {
+    margin: 20px 0 10px 0;    
+}
+.crumb-wrap a {
+    padding: 0 10px;
+}
+.preview-wrap img {
+    border: 1px solid #ccc;
+}
+.pre-list {    
+    position: relative;
+    height: 60px;
+    margin-top: 60px;
+}
+.iteminfo-list {
+    width: 320px;
+    margin: 0 auto;
+}
+.iteminfo-list li {
+    float: left;
+    width: 56px;
+    height: 56px;
+    margin: 0 2px;
+    border: 2px solid transparent;
+}
+.iteminfo-list li.current {
+    border: 2px solid #c81623;    
+}
+.iteminfo-list img {
+    border: 0;
+}
+.arrow-prev,
+.arrow-next {
+	position: absolute;
+	top: 15px;
+	width: 22px;
+	height: 32px;
+	background-color: purple;
+}
+.arrow-prev {
+	left: 0;
+	background: url(../img/arrow-prev.png) no-repeat;
+}
+.arrow-next {
+	right: 0;
+	background: url(../img/arrow-next.png) no-repeat;
+}
+/* 商品信息 */
+.iteminfo-wrap {
+    width: 718px;
+}
+.iteminfo-wrap h1 {
+    height: 30px;
+    font-size: 16px;    
+}
+.iteminfo-wrap .recommend {
+    color: #c81623; 
+}
+/* 商品概述 */
+.summary dl {
+    overflow: hidden;
+}
+.summary dt {
+    float: left;
+    width: 60px;    
+    margin-left: 10px;    
+    line-height: 36px;
+}
+.summary dd {
+    float: left;    
+}
+.summary-price {
+    position: relative;
+    padding: 10px 0;
+    background-color: #fee9eb;    
+}
+.summary-price i {
+    font-size: 24px;
+    color: #c81623;
+}
+.summary-price a {
+    color: #c81623;
+}
+.summary-price .remark {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+.summary-protomotion {
+    background-color: #fee9eb;
+}
+.summary-protomotion dd {
+    width: 450px;    
+    line-height: 50px;
+}
+.summary-protomotion i {
+    display: inline-block;
+    height: 20px;
+    color: white;
+    background-color: #c81623;
+    text-align: center;
+    line-height: 20px;
+}
+.summary-support dd {
+    line-height: 36px;
+}
+.summary-color a {
+    display: inline-block;
+    margin-right: 2px;
+    padding: 10px 20px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+}
+.chose-btns {
+    margin-top: 20px;
+}
+.chose-amount {
+    position: relative;
+    float: left;
+    width: 50px;
+    height: 46px;
+}
+.chose-amount input {
+    width: 33px;
+    height: 44px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.add,
+.reduce {
+	position: absolute;
+	right: 0;
+	width: 15px;
+	height: 22px;
+	border: 1px solid #ccc;
+	background-color: #f1f1f1;
+	text-align: center;
+	line-height: 22px;
+}
+.add {
+	top: 0;
+	
+}
+.reduce {
+	bottom: 0;
+	/*禁止鼠标样式*/
+	cursor: not-allowed;   /* pointer  小手  move  移动  */
+}
+.addcar {
+	float: left;
+	width: 142px;
+	height: 46px;
+	background-color: #c81623;
+	text-align: center;
+	line-height: 46px;
+	font-size: 18px;
+	color: #fff;
+	margin-left: 10px;
+	font-weight: 700;
+}

@@ -163,3 +163,96 @@
 .recom-bd .last {
 	border-right: 0;
 }
+/*floor 楼层区*/
+.box-hd {
+	height: 30px;
+	border-bottom: 2px solid #c81623;
+	margin-top: 25px;
+}
+.box-hd h3 {
+	float: left;
+	font-size: 18px;
+	color: #c81623;
+}
+.tab-list {
+	float: right;
+	line-height: 30px;
+}
+.tab-list li {
+	float: left;
+}
+.tab-list li a {
+	margin: 0 15px;
+}
+.box-bd {
+	height: 360px;
+}
+.w209 {
+	width: 209px;
+	background-color: #f9f9f9;
+}
+.w329 {
+	width: 329px;
+}
+.w219 {
+	width: 219px;
+	border-right: 1px solid #ccc;
+}
+.w220 {
+	width: 220px;
+	border-right: 1px solid #ccc;	
+}
+.tab-con li {
+	float: left;
+	height: 360px;
+}
+.tab-con-item {
+	border-bottom: 1px solid #ccc;
+}
+.tab-con-list {
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+.tab-con-list li {
+	width: 86px;
+	height: 32px;
+	line-height: 32px;
+	border-bottom: 1px solid #ccc;
+	margin-left: 10px;
+	text-align: center;
+}
+.box-bd li {
+	overflow: hidden;
+}
+.box-bd img {
+	/*过渡写到本身上， 谁做动画，给谁加*/
+	transition: all .2s;
+}
+/*我们鼠标经过图片 往右走 8px*/
+.box-bd img:hover {
+	margin-left: 8px;
+}
+/*电梯导航*/
+.fixedtool {
+	position: fixed;
+	top: 100px;
+	left: 50%;
+	margin-left: -676px;
+	width: 66px;
+	background-color: #fff;
+}
+.fixedtool li {
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	font-size: 12px;
+	border-bottom: 1px solid #ccc;
+	cursor: pointer;
+}
+.fixedtool .current {
+	background-color: #c81623;
+	color: #fff;
+}
+
+
+

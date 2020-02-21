@@ -162,6 +162,10 @@
 	line-height: 31px;
 	margin-left: 1px;
 	padding: 0 10px;
+	transition: all .5s;
+}
+.menu_item:hover {
+	padding-left: 20px;
 }
 .menu_item a {
 	font-size: 14px;

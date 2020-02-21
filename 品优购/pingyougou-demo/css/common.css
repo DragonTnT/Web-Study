@@ -169,9 +169,11 @@
     line-height: 31px;
     margin-left: 1px;
     padding: 0 10px;
+    transition: all 0.5s;
 }
 .menu-item:hover {
     background-color: white;
+    padding: 0 20px;
 }
 .menu-item a {    
     color: white;

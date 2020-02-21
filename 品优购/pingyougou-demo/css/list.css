@@ -1,0 +1,133 @@
+/* 秒杀 */
+.sk {
+    position: absolute;
+    left: 200px;
+    top: 35px;
+    border-left: 1px solid #c81623;
+    padding: 5px 15px;
+}
+.sk-list li{
+    float: left;
+    height: 47px;
+    margin: 0 30px;
+    text-align: center;
+    line-height: 47px;
+    font-size: 17px;
+    font-weight: 600;    
+}
+.sk-list a {
+    color: black;
+}
+.sk-list a:hover {
+    color: #c81623;
+}
+.sk-cont {
+    float: left;
+}
+.sk-cont li{
+    float: left;
+    height: 47px;
+    text-align: center;
+    line-height: 47px;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 20px;
+}
+.sk-container li {
+    width: 290px;
+}
+.sk-container ul {
+    width: 1218px;
+}
+.sk-bd {
+    margin-top: 15px;
+}
+.sk-goods {
+    float: left;
+    margin-right: 12px;
+    border: 1px solid transparent;
+}
+.sk-goods:hover {
+    border: 1px solid #c81623;
+}
+.sk-goods h5 {
+    margin: 0 15px;
+    font-size: 14px;
+}
+.sk-goods .price {
+    color: #c81623;
+    margin: 10px 0 0 10px;
+    font-size: 16px;
+}
+.sk-goods del {
+    color: #ccc;
+    font-size: 12px;
+}
+.sk-goods .amount {
+    height: 40px;
+    line-height: 40px;
+}
+.sk-goods .progress {
+    display: inline-block;
+    width: 150px;
+    height: 12px;    
+    background-color: white;
+    border: 1px solid #f24349;
+    border-radius: 6px;
+    vertical-align: center;
+    overflow: hidden;
+}
+.sk-goods .progress-bar {
+    width: 87%;
+    height: 12px;
+    background-color: #f24349;  
+}
+.buy {
+    height: 50px;
+    background-color: #c81623;
+    font-size: 20px;
+    line-height: 50px;  
+    text-align: center;
+}
+.buy a {
+    color: white;
+}
+/* 分页 */
+.page {
+    height: 38px;
+    margin: 40px 0;
+    text-align: center;    
+    line-height: 38px;
+}
+.page a {
+    display: inline-block;
+    height: 36px;
+    width: 36px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+}
+.page .page-prev,
+.page .page-next {
+    width: 83px;
+}
+.page .current,
+.page .page-more {
+    background-color: #fff;
+    border: none;
+}
+.page input {
+    width: 46px;
+    height: 36px;
+    border: 1px solid #ccc;
+    transition: all .3s;
+}
+.page input:focus {
+    width: 70px;
+    border: 1px solid greenyellow;
+}
+.page button {
+    width: 52px;
+    height: 36px;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc
+}

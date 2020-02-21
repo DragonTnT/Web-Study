@@ -1,1 +1,249 @@
 /* 首页样式 */
+.main {
+    width: 980px;
+    height: 455px;
+    margin-top: 10px;
+    margin-left: 219px;
+}
+.focus {
+    position: relative;
+    width: 720px;
+    height: 455px; 
+}
+.newsflash {
+    width: 250px;
+    height: 455px;
+}
+.focus img {
+    width: 720px;
+    height: 455px;
+}
+.focus a {
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 20px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, .3);
+    font-family: 'icomoon';
+    line-height: 40px;
+    text-indent: 20%;
+}
+.arrow-r {
+    right: 0;
+}
+.circles {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+}
+.circles li {
+    float: left;
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    border: 2px solid rgba(255, 255, 255, .3);
+    border-radius: 50%;
+}
+.circles-first {
+    background-color: white;
+}
+/* 快报 */
+.fastnews {
+    height: 163px;
+    border: 1px solid #ccc;
+}
+/* 生活服务 */
+.lifeservices {
+    height: 208px;
+    overflow: hidden;
+}
+/* 降价品 */ 
+.bargain {
+    height: 75px;
+    background-color: violet;
+}
+.news-hd {
+    height: 32px;
+    padding: 0 10px;
+    line-height: 32px;
+    border-bottom: 1px dotted #ccc;
+}
+.news-hd-more {
+    font-family: 'icomoon';
+}
+.news-bd {
+    padding: 10px 0 0 10px;
+}
+.news-bd li {
+    height: 23px;
+}
+.lifeservices {    
+    border: 1px solid #ccc;
+    border-top: none;
+}
+.lifeservices li {
+    float: left;
+    width: 62px;
+    height: 70px;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;   
+}
+.lifeservices li a {
+    display: block;
+    height: 100%;
+    overflow: hidden;
+}
+.lifeservices ul {
+    width: 252px;    
+}
+.lifeservices p {
+    text-align: center;
+}
+.service-icon {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 10px auto;
+    background: url(../img/icons.png) no-repeat;
+}
+.service-icon-huafei {
+    background-position: -17px -16px;
+}
+.bargain {
+    margin-top: 6px;
+}
+/* 推荐 */
+.recommend {
+    height: 163px;
+    margin-top: 10px;
+}
+.recom-hd {
+    width: 200px;
+    height: 100%;
+    background-color: #5c5251;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
+.recom-hd img {
+    margin: 30px 0 10px 0;
+}
+.recom-bd {
+    width: 1000px;
+    height: 100%;
+    background-color: #ebebeb;
+}
+.recom-bd li {
+    float: left;
+    width: 249px;
+    height: 145px;
+    margin-top: 10px;
+    border-right: 1px solid #ccc;
+}
+.recom-bd .last {
+    border-right: none
+}
+/* 楼层 */
+.floor {
+    margin-top: 20px;
+}
+.box-hd {
+    height: 30px;
+    border-bottom: 1px solid #c81623;
+    
+}
+.box-hd h3 {
+    float: left;
+    color: #c81623;
+    font-size: 18px;
+}
+.box-hd ul {
+    float: right;
+}
+.box-hd li {
+    float: left;    
+}
+.box-hd li a {
+    margin: 0 10px;
+}
+.box-bd {
+    height: 360px;      
+}
+.box-bd img {
+    transition: all 0.5s;  
+}
+.box-bd img:hover {
+    margin-left: 10px;
+}
+
+.w209 {
+    width: 209px;
+    background-color: #f9f9f9;
+}
+.w209 img{
+    margin-top: 10px;
+}
+
+.w329 {
+    width: 329px;
+}
+.w219 {    
+    width: 219px;    
+    border-right: 1px solid #ccc;
+}
+.w220 {
+    width: 220px;
+    border-right: 1px solid #ccc;
+}
+.w220 div {
+    font-size: 0;
+}
+.tab-cont li {
+    float: left;
+    height: 360px;
+}
+.tab-cont-item {
+    border-bottom: 1px solid #ccc; 
+    overflow: hidden;   
+}
+.tab-cont-item-top {
+    height: 180px;
+}
+.tab-cont-item-bottom {
+    height: 178px;
+}
+.tab-cont-list {
+    overflow: hidden;
+}
+.tab-cont-list li {
+    float: left;
+    width: 86px;
+    height: 32px;
+    margin-left: 10px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 32px;
+}
+/* 侧工具栏 */
+.fixedtool {
+	position: fixed;
+	top: 100px;
+	left: 50%;
+	margin-left: -676px;
+	width: 66px;
+	background-color: #fff;
+}
+.fixedtool li {
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    border-bottom: 1px solid #ccc;
+    transition: all 0.5s;
+}
+.fixedtool .current {    
+    background-color: #c81623;    
+}
+.fixedtool .current a {
+    color: #fff;
+}
