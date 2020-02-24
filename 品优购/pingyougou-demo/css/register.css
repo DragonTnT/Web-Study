@@ -1,0 +1,121 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+.header {
+    height: 82px;
+    border-bottom: 2px solid #c81623;
+}
+.header img {
+    margin-top: 15px;
+}
+.registerarea {
+    height: 520px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+}
+.registerarea-hd {
+    height: 40px;
+    border-bottom: 1px solid #ccc;
+    background-color: #f7f7f7;
+}
+.registerarea-hd h5 {
+    height: 100%;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.registerarea-hd h5 span {
+    float: right;
+    margin-right: 10px;
+    font-size: 14px;
+}
+.registerarea-hd h5 a {
+    color: #c81623;
+}
+.reg-form {
+    width: 600px;
+    height: 400px;
+    margin: 40px auto 0;
+}
+.reg-form li {
+    margin-bottom: 10px;
+}
+.reg-form .inp {
+    width: 238px;
+    height: 34px;
+    margin: 0 10px 0 5px;
+    border: 1px solid #ccc;
+}
+.reg-form label {
+    display: inline-block;
+    width: 100px;
+    height: 36px;
+    text-align: right;
+}
+.error {
+    color: #c81623;
+}
+.success {
+    color: #40B83F;
+}
+.reg-form i {
+    display: inline-block;
+    width: 20px;
+    height: 20px;    
+    vertical-align: middle;
+}
+.error-icon {
+    background: url(../img/error.png) no-repeat;
+}
+.success-icon {
+    background: url(../img/success.png) no-repeat;
+}
+.safe {
+    padding-left: 182px;
+}
+.safe em {
+    margin: 0 2px;
+    padding: 0 12px;
+    text-align: center;
+    color: #fff;
+}
+.reg-form .safe {
+    color: #b2b2b2;
+    margin-bottom: 15px;
+}
+.safe .weak {
+    background-color: red;
+}
+.safe .middle {
+    background-color: green;
+}
+.safe .strong {
+    background-color: orange;
+}
+.reg-form .protocol{
+    padding-top: 20px;
+    padding-left: 100px;
+}
+.reg-form .protocol a {
+    color: #1ba1e6;
+}
+.reg-form .complete {
+    margin-top: 50px;
+    padding-left: 130px;
+}
+.reg-form .complete input {
+    width: 200px;
+    height: 35px;
+    border: none;
+    color: #fff;
+    background-color: #c81623;
+}
+.footer {
+    text-align: center;
+}
+.footer p {
+    margin-top: 15px;
+    line-height: 20px;
+}

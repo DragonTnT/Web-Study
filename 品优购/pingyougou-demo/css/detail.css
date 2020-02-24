@@ -109,7 +109,20 @@
 .summary-support dd {
     line-height: 36px;
 }
-.summary-color a {
+
+.summary-color .current {
+    border: 1px solid #c81623;
+}
+
+.summary-color,
+.summary-version,
+.summary-buy {
+    margin-bottom: 10px;
+}
+
+.summary-color a,
+.summary-version a,
+.summary-buy a {
     display: inline-block;
     margin-right: 2px;
     padding: 10px 20px;
@@ -162,4 +175,76 @@
 	color: #fff;
 	margin-left: 10px;
 	font-weight: 700;
+}
+
+/* 产品详情 */
+.detail-aside {
+    width: 208px;
+    border: 1px solid #ccc;
+}
+.aside-list li{
+    float: left;
+    height: 33px;    
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 33px;
+}
+.aside-list li.current {
+    background-color: #fff;
+    color: #c81623;
+    border-bottom: none;
+}
+.aside-list .category {
+    width: 104px;    
+}
+.aside-list .recommend {
+    width: 103px;
+    border-left: 1px solid #ccc;
+}
+.aside-content {
+    padding: 10px;
+}
+.aside-content li {
+    border-bottom: 1px solid #ccc;
+}
+.aside-content h5 {
+    height: 20px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    text-align: center;        
+}
+.aside-price {
+    margin: 10px 0;
+}
+.as-addcar {
+    display: block;
+    width: 88px;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7; 
+    text-align: center;   
+}
+.detail-content {
+    width: 978px;
+    margin-left: 10px;    
+}
+.detail-con-list {
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+}
+.detail-con-list div {
+    padding: 10px 20px;
+    background-color: #f7f7f7;
+    cursor: pointer;
+}
+.detail-con-list div.current {
+    background-color: #c81623;
+    color: #fff;
+}
+.item-list {
+    margin: 20px 0 20px 30px;
+    line-height: 20px;
 }
